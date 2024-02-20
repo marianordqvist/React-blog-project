@@ -1,5 +1,5 @@
-### Group project for the "Who browses the web" SEO & Accessibility course at Hyper Island Front end developer program
-***This is a dummy React blog built with the purpose of training to write accessible and SEO friendly code.***
+Group project for the "Who browses the web" SEO & Accessibility course at Hyper Island Front end developer program
+This is a dummy React blog built with the purpose of training to write accessible and SEO friendly code.
 
 ## Project links
 * Website 
