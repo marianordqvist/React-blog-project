@@ -1,8 +1,12 @@
-# React + Vite
+### Group project for the "Who browses the web" SEO & Accessibility course at Hyper Island Front end developer program
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Study project "React blog project"
 
-Currently, two official plugins are available:
+***This is a dummy React blog built with the purpose of training to write accessible and SEO friendly code.***
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project links
+* Website 
+* Github [Visit repository](https://github.com/marianordqvist/React-blog-project)
+
+## Tools and stack: 
+* HTML / CSS / React 
