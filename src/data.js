@@ -1,3 +1,11 @@
+// import { ReactComponent as ComputerIcon } from "./Icons/computer.svg";
+// import { ReactComponent as ActionKey } from "./Icons/action_key.svg";
+// import { ReactComponent as DeveloperBoard } from "./Icons/developer_board.svg";
+// import { ReactComponent as KeyboardIcon } from "./Icons/keyboard.svg";
+// import { ReactComponent as LanIcon } from "./Icons/lan.svg";
+// import { ReactComponent as MouseIcon } from "./Icons/mouse.svg";
+// import { ReactComponent as SettingsEthernetIcon } from "./Icons/settings_ethernet.svg";
+
 export const blogPosts = [
   {
     id: 1,
@@ -10,6 +18,7 @@ export const blogPosts = [
       "Unleash the potential of React and elevate your frontend development skills!",
     author: "John Doe",
     keywords: ["React", "Frontend", "Development"],
+    // icon: <ComputerIcon />,
   },
   {
     id: 2,
@@ -22,6 +31,7 @@ export const blogPosts = [
       "Transform your web design skills with the revolutionary power of CSS Grid Layout!",
     author: "Jane Smith",
     keywords: ["CSS", "Grid Layout", "Web Design"],
+    // icon: <ActionKey />,
   },
   {
     id: 3,
@@ -34,6 +44,7 @@ export const blogPosts = [
       "Master the art of responsive design and captivate users on any device!",
     author: "Mark Johnson",
     keywords: ["Responsive Design", "User Experience", "Web Development"],
+    // icon: <DeveloperBoard />,
   },
   {
     id: 4,
@@ -46,6 +57,7 @@ export const blogPosts = [
       "Unleash the potential of React and elevate your frontend development skills!",
     author: "John Doe",
     keywords: ["React", "Frontend", "Development"],
+    // icon: <KeyboardIcon />,
   },
   {
     id: 5,
@@ -58,6 +70,7 @@ export const blogPosts = [
       "Transform your web design skills with the revolutionary power of CSS Grid Layout!",
     author: "Jane Smith",
     keywords: ["CSS", "Grid Layout", "Web Design"],
+    // icon: <LanIcon />,
   },
   {
     id: 6,
@@ -70,6 +83,7 @@ export const blogPosts = [
       "Master the art of responsive design and captivate users on any device!",
     author: "Mark Johnson",
     keywords: ["Responsive Design", "User Experience", "Web Development"],
+    // icon: <MouseIcon />,
   },
   {
     id: 7,
@@ -82,6 +96,7 @@ export const blogPosts = [
       "Unleash the potential of React and elevate your frontend development skills!",
     author: "John Doe",
     keywords: ["React", "Frontend", "Development"],
+    // icon: <SettingsEthernetIcon />,
   },
   {
     id: 8,
@@ -94,6 +109,7 @@ export const blogPosts = [
       "Transform your web design skills with the revolutionary power of CSS Grid Layout!",
     author: "Jane Smith",
     keywords: ["CSS", "Grid Layout", "Web Design"],
+    // icon: <KeyboardIcon />,
   },
   {
     id: 9,
@@ -106,6 +122,7 @@ export const blogPosts = [
       "Master the art of responsive design and captivate users on any device!",
     author: "Mark Johnson",
     keywords: ["Responsive Design", "User Experience", "Web Development"],
+    // icon: <MouseIcon />,
   },
   {
     id: 10,
@@ -118,6 +135,7 @@ export const blogPosts = [
       "Unleash the potential of React and elevate your frontend development skills!",
     author: "John Doe",
     keywords: ["React", "Frontend", "Development"],
+    // icon: <ActionKey />,
   },
   {
     id: 11,
@@ -130,6 +148,7 @@ export const blogPosts = [
       "Transform your web design skills with the revolutionary power of CSS Grid Layout!",
     author: "Jane Smith",
     keywords: ["CSS", "Grid Layout", "Web Design"],
+    // icon: <SettingsEthernetIcon />,
   },
   {
     id: 12,
@@ -142,5 +161,6 @@ export const blogPosts = [
       "Master the art of responsive design and captivate users on any device!",
     author: "Mark Johnson",
     keywords: ["Responsive Design", "User Experience", "Web Development"],
+    // icon: <ComputerIcon />,
   },
 ];
