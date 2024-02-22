@@ -1,0 +1,31 @@
+li {
+  width: 45%;
+  border: none;
+  background-color: white;
+  height: 35rem;
+  padding: 1rem;
+  border-radius: 3px;
+  box-shadow: 6px 7px 5px 1px rgba(0, 115, 255, 0.2);
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  height: 35rem;
+  gap: 1rem;
+}
+
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.7rem;
+}
+
+.author {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.content {
+  font-size: 1rem;
+}
