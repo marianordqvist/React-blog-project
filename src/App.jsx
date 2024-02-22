@@ -1,7 +1,12 @@
 import "./App.css";
+import BlogPostList from "./components/BlogPostList/BlogPostList";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <BlogPostList />
+    </>
+  );
 }
 
 export default App;
