@@ -1,166 +1,91 @@
-// import { ReactComponent as ComputerIcon } from "./Icons/computer.svg";
-// import { ReactComponent as ActionKey } from "./Icons/action_key.svg";
-// import { ReactComponent as DeveloperBoard } from "./Icons/developer_board.svg";
-// import { ReactComponent as KeyboardIcon } from "./Icons/keyboard.svg";
-// import { ReactComponent as LanIcon } from "./Icons/lan.svg";
-// import { ReactComponent as MouseIcon } from "./Icons/mouse.svg";
-// import { ReactComponent as SettingsEthernetIcon } from "./Icons/settings_ethernet.svg";
-
 export const blogPosts = [
   {
     id: 1,
     title: "Exploring the Wonders of React",
-    subtitle: "A Journey into the World of Frontend Development",
-    paragraph:
-      "Embark on a fascinating journey into the heart of React, unraveling its powerful features and mastering the art of building dynamic user interfaces.",
-    image: "https://example.com/image1.jpg",
+    content:
+      "Embark on an enthralling journey into the heart of React, unveiling its intricate features and mastering the art of crafting dynamic user interfaces. In this comprehensive exploration, we'll delve deep into the core concepts of React, dissecting its component-based architecture, state management, and the virtual DOM. By the end of this immersive journey, you will have acquired a profound understanding of React's magic, enabling you to elevate your frontend development skills to new heights and create truly captivating user interfaces.",
     sellingSentence:
       "Unleash the potential of React and elevate your frontend development skills!",
     author: "John Doe",
-    keywords: ["React", "Frontend", "Development"],
-    // icon: <ComputerIcon />,
+    imageUrl: "/img/head.svg",
+    altText: "icon head",
+    link: "#",
   },
   {
     id: 2,
-    title: "Mastering CSS Grid Layout",
-    subtitle: "Revolutionizing Web Design with Grid Systems",
-    paragraph:
-      "Dive deep into the world of CSS Grid Layout and discover how to create visually stunning and responsive web layouts that captivate your audience.",
-    image: "https://example.com/image2.jpg",
+    title: "Hooks: Unleashing Functional Components",
+    content:
+      "Embark on an illuminating journey to revolutionize your React components with the transformative power of Hooks. This in-depth exploration will guide you through the transformative landscape of React Hooks, showcasing their ability to transform functional components. We'll delve into the nuances of useState, useEffect, and custom Hooks, unlocking the full potential of functional programming in React. By the end of this odyssey, you'll possess the knowledge and skills to wield React Hooks with mastery and enhance the elegance of your React applications.",
     sellingSentence:
-      "Transform your web design skills with the revolutionary power of CSS Grid Layout!",
-    author: "Jane Smith",
-    keywords: ["CSS", "Grid Layout", "Web Design"],
-    // icon: <ActionKey />,
+      "Unlock the full potential of functional components with React Hooks!",
+    author: "Emily Rodriguez",
+    imageUrl: "/img/hook.svg",
+    altText: "icon hook",
+    link: "#",
   },
   {
     id: 3,
-    title: "The Art of Responsive Web Design",
+    title: "State Management in React",
     subtitle: "Creating Engaging User Experiences Across Devices",
-    paragraph:
-      "Explore the principles of responsive web design and learn how to craft seamless and engaging user experiences that adapt to any screen size.",
-    image: "https://example.com/image3.jpg",
+    content:
+      "Demystify the intricate world of state management in React and embrace the formidable power of Redux. This comprehensive guide will navigate you through the fundamental principles of centralized state management, illuminating the path to structuring your application's state with precision. We'll unravel the complexities of handling actions and seamlessly connecting everything with Redux. Prepare to embark on a journey of simplifying state management in React, armed with the clarity and power bestowed by the Redux paradigm.",
     sellingSentence:
-      "Master the art of responsive design and captivate users on any device!",
-    author: "Mark Johnson",
-    keywords: ["Responsive Design", "User Experience", "Web Development"],
-    // icon: <DeveloperBoard />,
+      "Simplify state management in React with the clarity and power of Redux!",
+    author: "Sophia Lee",
+    imageUrl: "/img/timeline.svg",
+    altText: "icon timeline",
+    link: "#",
   },
   {
     id: 4,
-    title: "Exploring the Wonders of React",
-    subtitle: "A Journey into the World of Frontend Development",
-    paragraph:
-      "Embark on a fascinating journey into the heart of React, unraveling its powerful features and mastering the art of building dynamic user interfaces.",
-    image: "https://example.com/image1.jpg",
+    title: "Testing React Applications",
+    subtitle: "Ensuring Reliability and Code Confidence with Testing",
+    content:
+      "Navigate the expansive landscape of testing React applications with unwavering confidence. From the foundations of unit tests to the complexities of end-to-end testing, this comprehensive guide will equip you with the strategies and best practices necessary to ensure the reliability and code confidence of your React codebase. Immerse yourself in the art of building robust React applications, adopting a holistic testing strategy that transcends traditional boundaries. Elevate your development process and deliver high-quality, bug-free React applications with assurance.",
     sellingSentence:
-      "Unleash the potential of React and elevate your frontend development skills!",
-    author: "John Doe",
-    keywords: ["React", "Frontend", "Development"],
-    // icon: <KeyboardIcon />,
+      "Build robust React applications with a comprehensive testing strategy!",
+    author: "Alex Turner",
+    imageUrl: "/img/bug.svg",
+    altText: "icon bug",
+    link: "#",
   },
   {
     id: 5,
-    title: "Mastering CSS Grid Layout",
-    subtitle: "Revolutionizing Web Design with Grid Systems",
-    paragraph:
-      "Dive deep into the world of CSS Grid Layout and discover how to create visually stunning and responsive web layouts that captivate your audience.",
-    image: "https://example.com/image2.jpg",
+    title: "Next.js: Building Server-Rendered React Apps",
+    subtitle: "Creating Fast and SEO-Friendly Web Applications",
+    content:
+      "Embark on an expedition to build lightning-fast and SEO-friendly web applications with the transformative capabilities of Next.js. This comprehensive guide will unveil the strategic advantages of server rendering, catapulting your application's performance to unprecedented levels. Immerse yourself in the intricacies of dynamic routing and API routes, understanding their pivotal role in crafting scalable and efficient React applications. Elevate your React applications with the unparalleled speed and SEO benefits bestowed by the Next.js framework.",
     sellingSentence:
-      "Transform your web design skills with the revolutionary power of CSS Grid Layout!",
-    author: "Jane Smith",
-    keywords: ["CSS", "Grid Layout", "Web Design"],
-    // icon: <LanIcon />,
+      "Elevate your React apps with the power of Next.js for unparalleled speed and SEO!",
+    author: "Daniel Chang",
+    imageUrl: "/img/server.svg",
+    altText: "icon server",
+    link: "#",
   },
   {
     id: 6,
-    title: "The Art of Responsive Web Design",
-    subtitle: "Creating Engaging User Experiences Across Devices",
-    paragraph:
-      "Explore the principles of responsive web design and learn how to craft seamless and engaging user experiences that adapt to any screen size.",
-    image: "https://example.com/image3.jpg",
+    title: "Animating React: A Guide to React Spring",
+    subtitle: "Creating Dynamic and Engaging User Interfaces with React Spring",
+    content:
+      "Immerse yourself in the captivating world of dynamic and engaging user interfaces, guided by the transformative prowess of React Spring. This blog post serves as your comprehensive companion, guiding you through the intricate landscape of React Spring and its boundless capabilities. Explore the art of breathing life into React applications, from fundamental animations to complex transitions. Enhance user interaction and craft visually stunning React applications that leave an indelible mark on your audience. Embark on this odyssey and witness your React applications come to life with the enchanting animations empowered by React Spring.",
     sellingSentence:
-      "Master the art of responsive design and captivate users on any device!",
-    author: "Mark Johnson",
-    keywords: ["Responsive Design", "User Experience", "Web Development"],
-    // icon: <MouseIcon />,
+      "Bring your React applications to life with captivating animations using React Spring!",
+    author: "Sophia Lee",
+    imageUrl: "/img/animation.svg",
+    altText: "icon animation",
+    link: "#",
   },
   {
     id: 7,
-    title: "Exploring the Wonders of React",
-    subtitle: "A Journey into the World of Frontend Development",
-    paragraph:
-      "Embark on a fascinating journey into the heart of React, unraveling its powerful features and mastering the art of building dynamic user interfaces.",
-    image: "https://example.com/image1.jpg",
+    title: "Why React is Super Cool",
+    subtitle: "Unraveling the Magic Behind React's Popularity",
+    content:
+      "Join us on an exhilarating journey as we unravel the enchanting magic behind React and explore why it stands as the epitome of coolness in the world of frontend development. From its declarative syntax, which simplifies UI development, to the virtual DOM, optimizing performance, we'll delve into the features that set React apart. Whether you're a seasoned developer or just taking your first steps into the realm of frontend development, this blog post will serve as your compass, guiding you through the coolness of React. Get ready to embark on this magical journey and discover why React continues to reign supreme as the coolest library for building cutting-edge user interfaces.",
     sellingSentence:
-      "Unleash the potential of React and elevate your frontend development skills!",
-    author: "John Doe",
-    keywords: ["React", "Frontend", "Development"],
-    // icon: <SettingsEthernetIcon />,
-  },
-  {
-    id: 8,
-    title: "Mastering CSS Grid Layout",
-    subtitle: "Revolutionizing Web Design with Grid Systems",
-    paragraph:
-      "Dive deep into the world of CSS Grid Layout and discover how to create visually stunning and responsive web layouts that captivate your audience.",
-    image: "https://example.com/image2.jpg",
-    sellingSentence:
-      "Transform your web design skills with the revolutionary power of CSS Grid Layout!",
-    author: "Jane Smith",
-    keywords: ["CSS", "Grid Layout", "Web Design"],
-    // icon: <KeyboardIcon />,
-  },
-  {
-    id: 9,
-    title: "The Art of Responsive Web Design",
-    subtitle: "Creating Engaging User Experiences Across Devices",
-    paragraph:
-      "Explore the principles of responsive web design and learn how to craft seamless and engaging user experiences that adapt to any screen size.",
-    image: "https://example.com/image3.jpg",
-    sellingSentence:
-      "Master the art of responsive design and captivate users on any device!",
-    author: "Mark Johnson",
-    keywords: ["Responsive Design", "User Experience", "Web Development"],
-    // icon: <MouseIcon />,
-  },
-  {
-    id: 10,
-    title: "Exploring the Wonders of React",
-    subtitle: "A Journey into the World of Frontend Development",
-    paragraph:
-      "Embark on a fascinating journey into the heart of React, unraveling its powerful features and mastering the art of building dynamic user interfaces.",
-    image: "https://example.com/image1.jpg",
-    sellingSentence:
-      "Unleash the potential of React and elevate your frontend development skills!",
-    author: "John Doe",
-    keywords: ["React", "Frontend", "Development"],
-    // icon: <ActionKey />,
-  },
-  {
-    id: 11,
-    title: "Mastering CSS Grid Layout",
-    subtitle: "Revolutionizing Web Design with Grid Systems",
-    paragraph:
-      "Dive deep into the world of CSS Grid Layout and discover how to create visually stunning and responsive web layouts that captivate your audience.",
-    image: "https://example.com/image2.jpg",
-    sellingSentence:
-      "Transform your web design skills with the revolutionary power of CSS Grid Layout!",
-    author: "Jane Smith",
-    keywords: ["CSS", "Grid Layout", "Web Design"],
-    // icon: <SettingsEthernetIcon />,
-  },
-  {
-    id: 12,
-    title: "The Art of Responsive Web Design",
-    subtitle: "Creating Engaging User Experiences Across Devices",
-    paragraph:
-      "Explore the principles of responsive web design and learn how to craft seamless and engaging user experiences that adapt to any screen size.",
-    image: "https://example.com/image3.jpg",
-    sellingSentence:
-      "Master the art of responsive design and captivate users on any device!",
-    author: "Mark Johnson",
-    keywords: ["Responsive Design", "User Experience", "Web Development"],
-    // icon: <ComputerIcon />,
+      "Explore the magic of React and understand why it's the coolest library for building cutting-edge user interfaces!",
+    author: "Sarah Johnson",
+    imageUrl: "/img/cool.svg",
+    altText: "icon cool",
+    link: "#",
   },
 ];
