@@ -10,6 +10,8 @@ export const blogPosts = [
     imageUrl: "/img/head.svg",
     altText: "icon head",
     link: "#",
+    unsplashImage: "/img/unsplash/code.webp",
+    unsplashImageAltText: "green text that looks like code",
   },
   {
     id: 2,
@@ -22,6 +24,8 @@ export const blogPosts = [
     imageUrl: "/img/hook.svg",
     altText: "icon hook",
     link: "#",
+    unsplashImage: "/img/unsplash/connections.webp",
+    unsplashImageAltText: "An image from Nasa showing lights covering America",
   },
   {
     id: 3,
@@ -35,6 +39,8 @@ export const blogPosts = [
     imageUrl: "/img/timeline.svg",
     altText: "icon timeline",
     link: "#",
+    unsplashImage: "/img/unsplash/keyboard.webp",
+    unsplashImageAltText: "a laptop keyboard",
   },
   {
     id: 4,
@@ -48,6 +54,9 @@ export const blogPosts = [
     imageUrl: "/img/bug.svg",
     altText: "icon bug",
     link: "#",
+    unsplashImage: "/img/unsplash/mobile.webp",
+    unsplashImageAltText:
+      "People in suits standing in a row looking at their phones",
   },
   {
     id: 5,
@@ -61,6 +70,9 @@ export const blogPosts = [
     imageUrl: "/img/server.svg",
     altText: "icon server",
     link: "#",
+    unsplashImage: "/img/unsplash/network.webp",
+    unsplashImageAltText:
+      "A bunch of cables connected in a way that looks like a network",
   },
   {
     id: 6,
@@ -74,6 +86,8 @@ export const blogPosts = [
     imageUrl: "/img/animation.svg",
     altText: "icon animation",
     link: "#",
+    unsplashImage: "/img/unsplash/stringlights.webp",
+    unsplashImageAltText: "Blue lights connected by string",
   },
   {
     id: 7,
@@ -87,5 +101,7 @@ export const blogPosts = [
     imageUrl: "/img/cool.svg",
     altText: "icon cool",
     link: "#",
+    unsplashImage: "/img/unsplash/typing.webp",
+    unsplashImageAltText: "Hands typing on a keyboard",
   },
 ];
