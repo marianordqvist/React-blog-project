@@ -5,7 +5,7 @@
     list-style: none;
     box-sizing: border-box;
 }
-.globel-header{
+.global-header{
     display: flex;
     background-color: #61DAFB;
     
@@ -21,6 +21,12 @@
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
+}
+.react-logo{
+    width:60px;
+    height:60px;
+    padding-right: 10px;
+    margin-bottom: -20px;
 }
 nav ul{
     float:right;
