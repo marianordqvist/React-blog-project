@@ -4,18 +4,15 @@ import "./App.css";
 import BlogPostList from "./components/BlogPostList/BlogPostList";
 
 function App() {
+  return (
+    <>
+      <Banner />
 
-  return (<>
-  <Banner />
-
-  <Footer />
-
+      <Footer />
 
       <BlogPostList />
     </>
   );
-
-
 }
 
 export default App;
