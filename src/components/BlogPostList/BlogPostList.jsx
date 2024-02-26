@@ -4,7 +4,7 @@ import "./BlogPostList.css";
 import { useState } from "react";
 
 export default function BlogPostList() {
-  const [visiblePosts, setVisiblePosts] = useState(3);
+  const [visiblePosts, setVisiblePosts] = useState(5);
 
   //calculate number of cards in total
   const visiblePostsLimit = Math.min(visiblePosts, blogPosts.length);
@@ -17,7 +17,9 @@ export default function BlogPostList() {
       <ul className="post-list">
         {blogPosts.map((post, index) => (
           <li
-            className={`post-list-item ${index < visiblePostsLimit ? "" : "hidden"}`}
+            className={`post-list-item ${
+              index < visiblePostsLimit ? "" : "hidden"
+            }`}
             key={post.id}
           >
             <BlogPost post={post} />

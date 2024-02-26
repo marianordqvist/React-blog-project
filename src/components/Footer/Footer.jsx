@@ -5,13 +5,14 @@ const Footer = () => {
     <>
       <div className="footer" aria-label="Website footer">
         <div className="heads">
+          <p className="head" style={{ marginTop: "20px" }}>
+            Collaborators
+          </p>
           <p
             className="head"
             style={{ marginTop: "20px" }}
             aria-label="Collaborators"
-          >
-            Colaberators
-          </p>
+          ></p>
 
           <a
             className="link head"
