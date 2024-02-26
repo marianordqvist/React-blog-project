@@ -16,17 +16,19 @@ function FeaturedBlogPostList() {
   };
 
   return (
-    <section>
-      <nav>
-        <ul className="container-all-blog-post">
-          {featuredPosts.map((post) => (
-            <li key={post.id}>
-              <FeaturedBlogPost post={post} scrollToPost={scrollToPost} />
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </section>
+    <>
+      <section>
+        <nav>
+          <ul className="container-all-blog-post">
+            {featuredPosts.map((post) => (
+              <li key={post.id}>
+                <FeaturedBlogPost post={post} scrollToPost={scrollToPost} />
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </section>
+    </>
   );
 }
 

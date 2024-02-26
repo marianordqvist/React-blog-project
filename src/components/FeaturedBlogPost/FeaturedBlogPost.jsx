@@ -27,3 +27,5 @@ function FeaturedBlogPost({
     </div>
   );
 }
+
+export default FeaturedBlogPost;
