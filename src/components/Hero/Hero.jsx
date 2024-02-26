@@ -1,5 +1,5 @@
 import "./Hero.css";
-import reactLogo from ".././assets/react.svg";
+import reactLogo from "../../img/react.svg";
 
 function Hero() {
   return (

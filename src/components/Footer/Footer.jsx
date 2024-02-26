@@ -5,12 +5,17 @@ const Footer = () => {
     <>
       <div className="footer" aria-label="Website footer">
         <div className="heads">
+
+          <p className="head" style={{ marginTop: "20px" }}>
+          Collaborators
+
           <p
             className="head"
             style={{ marginTop: "20px" }}
             aria-label="Collaborators"
           >
-            Colaberators
+           
+
           </p>
 
           <a

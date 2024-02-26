@@ -2,6 +2,8 @@
   background-color: #61dafb;
   height: 40rem;
   overflow: scroll;
+  border-bottom: 10px solid #61dafb;
+  margin-bottom: 20px;
 }
 
 .post-list {
