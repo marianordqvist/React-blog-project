@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="footer">
         <div className="heads">
           <p className="head" style={{ marginTop: "20px" }}>
-            Colaberators
+          Collaborators
           </p>
 
           <a
