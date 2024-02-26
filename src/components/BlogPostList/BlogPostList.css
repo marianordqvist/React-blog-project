@@ -1,7 +1,5 @@
 .post-list-section {
   background-color: #61dafb;
-  height: 40rem;
-  overflow: scroll;
   border-bottom: 10px solid #61dafb;
   margin-bottom: 20px;
 }
@@ -11,7 +9,7 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 1.5rem;
   padding: 3rem 0;
 }
 
