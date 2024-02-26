@@ -1,3 +1,6 @@
+
+import Header from './components/Header/Header';
+
 import "./App.css";
 import Hero from "./components/Hero/Hero";
 import Divider from "./components/Divider/Divider";
@@ -9,9 +12,13 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
+
       <Hero />
       <Divider text={"Featured Blog Post"} />
       <FeaturedBlogPostList />
+
+      <Header></Header>
+
       <Banner />
       <Divider text={"Blog Post"} />
       <BlogPostList />
