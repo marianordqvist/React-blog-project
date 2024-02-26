@@ -1,5 +1,4 @@
-
-import Header from './components/Header/Header';
+import Header from "./components/Header/Header";
 
 import "./App.css";
 import Hero from "./components/Hero/Hero";
@@ -12,12 +11,10 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
-
+      <Header />
       <Hero />
       <Divider text={"Featured Blog Post"} />
       <FeaturedBlogPostList />
-
-      <Header></Header>
 
       <Banner />
       <Divider text={"Blog Post"} />
