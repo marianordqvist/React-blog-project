@@ -17,8 +17,9 @@
   border-bottom: #61dafb solid 4px;
   padding: 5px;
   width: 280px;
-  height: 90px;
+  height: 120px;
   position: relative;
+  cursor: default;
 }
 .container-blog-post-title {
   width: 100%;
@@ -53,4 +54,14 @@
   position: absolute;
   bottom: 5px;
   left: 5px;
+}
+
+.blog-link {
+  border: solid 2px black;
+  width: fit-content;
+  align-self: center;
+  padding: 2px 5px;
+  background-color: #61dafb;
+  border-radius: 5px;
+  cursor: pointer;
 }
