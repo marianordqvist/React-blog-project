@@ -8,7 +8,11 @@
   display: flex;
   justify-content: space-around;
   padding-top: 20px;
-  margin-left: 90px;
+  margin-left: 140px;
+
+}
+.hyper{
+  padding-left: 180px;
 }
 .head {
   font-size: large;
@@ -40,8 +44,6 @@
   margin-left: 90px;
 }
 
-.hyper {
-}
 .team2 {
   display: none;
 }
@@ -87,9 +89,15 @@
   .heads {
     margin-left: 200px;
   }
+  .hyper{
+    padding: 0;
+  }
 }
 @media (max-width: 950px) {
   .heads {
     margin-left: 150px;
   }
+.hyper{
+  padding-right: 30px;
+}
 }
