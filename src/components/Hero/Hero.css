@@ -9,6 +9,13 @@
   height: 4.5rem;
   animation: logo-spin infinite 20s linear;
 }
+/* styles to apply if a user's device settings are set to reduced motion */
+@media (prefers-reduced-motion) {
+  .logo-icon {
+    animation: logo-spin infinite 200s linear;
+  }
+}
+
 @media (max-width: 600px) {
   .logo-icon {
     height: 3rem;

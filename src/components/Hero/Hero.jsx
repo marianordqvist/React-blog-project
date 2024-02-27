@@ -14,7 +14,6 @@ function Hero() {
           src={reactLogo}
           className="logo-icon"
           alt="React logo as the letter o"
-          role="img"
         />
         R
       </h1>
