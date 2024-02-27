@@ -26,7 +26,7 @@ const Header = () => {
         The Reactor</label>
       
         <ul className='ul-nav' >
-          <li className='ul-list' ><a  className='active' href="#home">Home</a></li>
+          <li className='ul-list' ><a  href="location.reloud()" className='active'>Home</a></li>
           <li  className='ul-list'><a  className='active' href="#about">About</a></li>
           <li className='ul-list' ><a  className='active' href="#blog">Blog</a></li>
           <li  className='ul-list'><a   className='active' href="#signsup">Sign Up</a></li>
