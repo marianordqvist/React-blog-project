@@ -8,101 +8,22 @@
 
 .global-header {
   display: flex;
-background: linear-gradient(357deg, transparent 0%, #0f7394 100%),
-            linear-gradient(1deg, transparent 0%, #137da1 100%) 0 61%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 50px;
+  background: linear-gradient(357deg, transparent 0%, #0f7394 100%),
+    linear-gradient(1deg, transparent 0%, #137da1 100%) 0 61%;
 }
 
-.nav-bar {
-  height: 100px;
-  width: 100%;
+.header-logo-icon {
+  height: 4.5rem;
+  animation: logo-spin infinite 20s linear;
 }
 
-.logo {
+.header-logo {
+  margin-left: 50px;
   color: #61dafb;
-  font-size: 35px;
-  margin-top: -20px;
-  position: relative;
- /* left: -200px;*/
-  line-height: 80px;
-  padding: 0 10px;
-  font-weight: bold;
+  font-size: 2rem;
   text-shadow: 1px 0px 13px rgba(12, 67, 85, 1),
-             -4px 3px 9px rgba(97, 218, 251, 0.971);
+    -4px 3px 9px rgba(97, 218, 251, 0.971);
 }
-
-.react-logo {
-  width: 60px;
-  height: 60px;
-  margin-right: 10px;
-  padding-right: 10px;
-  margin-bottom: -20px;
-}
-.ul-nav{
-    float: right;
-   margin-right: 20px;
-  
-   
-}
-.ul-list{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-   
-}
-a.active,
-a:hover {
-   color: #4ac2e6;
-  transition: 0.5s;
-  font-size: 22px;
-}
-
-/* Your existing styles */
-
-/*@media (max-width: 767px) {
-    .logo {
-      font-size: 30px;
-      left: 0;  Adjust as needed 
-    }
-  
-    .react-logo {
-      width: 40px;
-      height: 40px;
-      margin-right: 5px;
-      padding-right: 5px;
-      margin-bottom: -15px;
-    }
-  
-    .ul-nav {
-      float: none;
-      margin: 20px auto;
-      text-align: center;
-    }
-  
-    .ul-list {
-      display: block;
-      line-height: 40px;  Adjust as needed 
-      margin: 10px 0;
-    }
-  
-    a.active,
-    a:hover {
-      font-size: 20px;
-    }
-  }*/
-  @media(max-width:969){
-    .react-logo{
-        padding-left:200px;
-        margin-left: 200px;
-        left: auto;
-
-    }
-
-  }
-  @media(max-width:600){
-    .react-logo{
-        text-align: center;
-    }
-    .ul-list{
-        text-align: center;
-    }
-  }
