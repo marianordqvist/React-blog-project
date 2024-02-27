@@ -18,7 +18,7 @@ function App() {
         <FeaturedBlogPostList />
         <div className="line-long"></div>
         <Banner />
-        <Divider text={"Blog Post"} />
+        <Divider text={"Blog Posts"} />
         <BlogPostList />
       </main>
       <Footer />
