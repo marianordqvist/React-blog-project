@@ -30,12 +30,13 @@ article {
 .author {
   font-weight: 700;
   font-style: italic;
-  align-self: center;
+  align-self: self-end;
   margin-bottom: 0.5rem;
 }
 
 .content {
   font-size: 1.2rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -69,5 +70,5 @@ article {
 }
 
 .close-full-post-button {
-  background-color: rgb(245, 165, 28);
+  background-color: #029ac4;
 }

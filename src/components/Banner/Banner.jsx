@@ -3,18 +3,16 @@ import myGif from "./ReactJS.gif";
 const Banner = () => {
   return (
     <>
-
-
-     
-
-
       <div aria-label="Website banner" className="main">
         <img className="banner-img" src={myGif} alt="" />
-        <h3 className="sect1">Sign up free to start creating</h3>
+        <h3 className="sect1">Sign up to Reactors Newsletters</h3>
 
-        <p className="sect2">No credit card required</p>
+        <p className="sect2">
+          Get a comprehensive summary of the most important news, in the world
+          of React - Delivered to your inbox.
+        </p>
         <button aria-label="Sign up button" className="signUp">
-          Get Started
+          Sign Up Now!
         </button>
       </div>
     </>

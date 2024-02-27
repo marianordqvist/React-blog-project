@@ -5,7 +5,7 @@ import "./FeaturedBlogPost.css";
 function FeaturedBlogPostList() {
   console.log("Imported blogPosts:", blogPosts);
 
-  const postIndexesToShow = [0, 4, 2];
+  const postIndexesToShow = [0, 1, 2];
   const featuredPosts = postIndexesToShow.map((index) => blogPosts[index]);
 
   const scrollToPost = (postId) => {

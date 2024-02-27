@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  background-color: rgb(244, 244, 244);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -43,4 +44,11 @@ a {
 
 html {
   scroll-behavior: smooth;
+}
+
+.line-long {
+  height: 10px;
+  width: 100%;
+  background-color: #61dafb;
+  margin-bottom: 50px;
 }
