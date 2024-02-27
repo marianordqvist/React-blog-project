@@ -8,7 +8,8 @@
 
 .global-header {
   display: flex;
-  background-color: #087ea4;
+background: linear-gradient(357deg, transparent 0%, #0f7394 100%),
+            linear-gradient(1deg, transparent 0%, #137da1 100%) 0 61%;
 }
 
 .nav-bar {
@@ -19,162 +20,89 @@
 .logo {
   color: #61dafb;
   font-size: 35px;
+  margin-top: -20px;
+  position: relative;
+ /* left: -200px;*/
   line-height: 80px;
-  padding: 0 100px;
+  padding: 0 10px;
   font-weight: bold;
+  text-shadow: 1px 0px 13px rgba(12, 67, 85, 1),
+             -4px 3px 9px rgba(97, 218, 251, 0.971);
 }
 
 .react-logo {
   width: 60px;
   height: 60px;
+  margin-right: 10px;
   padding-right: 10px;
   margin-bottom: -20px;
 }
-
-.ul-nav {
-  float: right;
-  margin-right: 20px;
+.ul-nav{
+    float: right;
+   margin-right: 20px;
+  
+   
 }
-
-.ul-list {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
+.ul-list{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+   
 }
-
-nav ul li a {
-  color: #61dafb;
-  /* color:white;*/
-  font-size: 20px;
-  border-radius: 3px;
-  text-transform: uppercase;
-}
-
 a.active,
 a:hover {
-  /* background: #4ac2e6;*/
+   color: #4ac2e6;
   transition: 0.5s;
+  font-size: 22px;
 }
 
-.checkbtn {
-  font-size: 30px;
-  color: #4ac2e6;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-}
+/* Your existing styles */
 
-.hamburger {
-  display: none;
-  /* Hide the hamburger button by default on larger screens */
-  cursor: pointer;
-  background: none;
-  border: none;
-  padding: 10px;
-}
+/*@media (max-width: 767px) {
+    .logo {
+      font-size: 30px;
+      left: 0;  Adjust as needed 
+    }
+  
+    .react-logo {
+      width: 40px;
+      height: 40px;
+      margin-right: 5px;
+      padding-right: 5px;
+      margin-bottom: -15px;
+    }
+  
+    .ul-nav {
+      float: none;
+      margin: 20px auto;
+      text-align: center;
+    }
+  
+    .ul-list {
+      display: block;
+      line-height: 40px;  Adjust as needed 
+      margin: 10px 0;
+    }
+  
+    a.active,
+    a:hover {
+      font-size: 20px;
+    }
+  }*/
+  @media(max-width:969){
+    .react-logo{
+        padding-left:200px;
+        margin-left: 200px;
+        left: auto;
 
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  /* background-color: white;*/
-  margin: 5px 0;
-  transition: 0.4s;
-}
+    }
 
-.nav-links {
-  display: flex;
-}
-
-.checkbtn {
-  font-size: 30px;
-  color: #4ac2e6;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-}
-
-#check {
-  display: none;
-}
-
-@media (max-width: 953px) {
-  label.logo {
-    font-size: 30px;
-    padding-left: 50px;
   }
-  .checkbtn {
-    display: block;
-    font-size: 30px;
-    color: #4ac2e6;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
+  @media(max-width:600){
+    .react-logo{
+        text-align: center;
+    }
+    .ul-list{
+        text-align: center;
+    }
   }
-
-  .ul-nav {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #087ea4;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all 0.5s;
-  }
-  .ul-list {
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-  }
-  nav ul li a {
-    font-size: 20px;
-  }
-  a:hover,
-  a.active {
-    background: none;
-    color: #4ac2e6;
-  }
-
-  #check:checked ~ .ul-nav {
-    left: 0;
-  }
-}
-
-@media (max-width: 953px) {
-  .checkbtn {
-    display: block;
-  }
-
-  .ul-nav {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #087ea4;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all 0.5s;
-  }
-  .ul-list {
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-  }
-  nav ul li a {
-    font-size: 20px;
-  }
-  a:hover,
-  a.active {
-    background: none;
-    color: #4ac2e6;
-  }
-  #check:checked ~ ul {
-    left: 0;
-  }
-}

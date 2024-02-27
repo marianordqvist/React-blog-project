@@ -13,28 +13,26 @@ const Header = () => {
   return (
     <header className='global-header'>
       <nav className='nav-bar'>
+     {/*
       <input type="checkbox" 
       id="check" className="hamburger-checkbox"
        onChange={toggleNav} 
         aria-hidden="true" />
       <label htmlFor="check" className={`checkbtn ${isNavActive ? 'active' : ''}`} aria-label="Toggle Navigation">
-        <i className='fas fa-bars'></i>
-      </label>
+  <i className='fas fa-bars'></i>
+      </label>*/}
 
       <label className="logo">
         <img src={ReactJS} alt="React Logo" className='react-logo'/>
         The Reactor</label>
       
         <ul className='ul-nav' >
-          <li className='ul-list' ><a  className='active' href="#home">Home</a></li>
-          <li  className='ul-list'><a  className='active' href="#about">About</a></li>
-          <li className='ul-list' ><a  className='active' href="#blog">Blog</a></li>
+          <li className='ul-list' ><a className="active" href="#home" >Home</a></li>
           <li  className='ul-list'><a   className='active' href="#signsup">Sign Up</a></li>
-          <li className='ul-list' ><a className='active' href="#resources">Resources</a></li>
           <li  className='ul-list'><a className='active' href="#contact">Contact</a></li>
         </ul>
         
-        
+       
       </nav>
     </header>
   );
