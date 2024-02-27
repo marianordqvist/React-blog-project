@@ -12,13 +12,15 @@ function App() {
   return (
     <>
       <Header />
-      <Hero />
-      <Divider text={"Featured Blog Post"} />
-      <FeaturedBlogPostList />
-      <div className="line-long"></div>
-      <Banner />
-      <Divider text={"Blog Post"} />
-      <BlogPostList />
+      <main>
+        <Hero />
+        <Divider text={"Featured Blog Post"} />
+        <FeaturedBlogPostList />
+        <div className="line-long"></div>
+        <Banner />
+        <Divider text={"Blog Post"} />
+        <BlogPostList />
+      </main>
       <Footer />
     </>
   );

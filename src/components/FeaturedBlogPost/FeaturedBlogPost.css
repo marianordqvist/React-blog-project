@@ -17,7 +17,6 @@
   border-bottom: #61dafb solid 4px;
   padding: 5px;
   width: 280px;
-  height: 120px;
   position: relative;
   cursor: default;
 }
@@ -58,7 +57,7 @@
 
 .blog-link {
   position: relative;
-  bottom: -28px;
+  bottom: -21px;
   border: none;
   width: fit-content;
   font-weight: 600;

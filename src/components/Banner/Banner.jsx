@@ -1,10 +1,12 @@
 import "./Banner.css";
 import myGif from "./ReactJS.gif";
+import reactLogo from "../../img/react.svg";
 const Banner = () => {
   return (
     <>
       <div aria-label="Website banner" className="main">
-        <img className="banner-img" src={myGif} alt="" />
+        {/* <img className="banner-img" src={myGif} alt="" /> */}
+        <img src={reactLogo} className="banner--logo-icon" alt="React logo" />
         <h3 className="sect1">Sign up to Reactors Newsletters</h3>
 
         <p className="sect2">

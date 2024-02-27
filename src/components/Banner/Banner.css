@@ -3,7 +3,7 @@
   background: linear-gradient(100deg, transparent 0%, #61dafb 200%);
   width: 100%;
   margin-bottom: 50px;
-  padding: 40px 10px 0 10px;
+  padding: 20px 10px 0 10px;
   height: 250px;
 }
 
@@ -45,5 +45,16 @@
   }
   .sect2 {
     font-size: medium;
+  }
+}
+
+.banner--logo-icon {
+  height: 3em;
+  animation: logo-spin infinite 20s linear;
+}
+/* styles to apply if a user's device settings are set to reduced motion */
+@media (prefers-reduced-motion) {
+  .banner--logo-icon {
+    animation: logo-spin infinite 200s linear;
   }
 }
