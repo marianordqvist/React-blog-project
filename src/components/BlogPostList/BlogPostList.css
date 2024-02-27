@@ -21,6 +21,7 @@
 .post-list-item {
   list-style: none;
   width: 90%;
+  max-width: 1000px;
   border: none;
   background-color: white;
   padding: 1rem;
