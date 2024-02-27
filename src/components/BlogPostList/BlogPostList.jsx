@@ -17,9 +17,7 @@ export default function BlogPostList() {
       <ul className="post-list">
         {blogPosts.map((post, index) => (
           <li
-            className={`post-list-item ${
-              index < visiblePostsLimit ? "" : "hidden"
-            }`}
+            className={`post-list-item ${index < visiblePostsLimit ? "" : "hidden"}`}
             key={post.id}
           >
             <BlogPost post={post} />
@@ -37,12 +35,12 @@ export default function BlogPostList() {
             type="button"
             className="load-more-button"
             onClick={() => setVisiblePosts((prev) => prev + 3)}
+            aria-label="Load more blogposts"
           >
             Load more blog posts
           </button>
         )}
       </div>
-      {/* <div className="fade-out"></div> */}
     </section>
   );
 }

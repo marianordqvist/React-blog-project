@@ -13,6 +13,8 @@ export default function BlogPost({ post }) {
     setFullPost(false);
   };
 
+  console.log("aria-hidden:", !fullPost);
+
   return (
     <div className="post-container" id={post.id}>
       <article>
@@ -20,17 +22,19 @@ export default function BlogPost({ post }) {
         {post.subtitle ? <h4 className="subtitle">{post.subtitle}</h4> : null}
         <p className="author">Author: {post.author}</p>
         <img src={post.unsplashImage} alt={post.unsplashImageAltText}></img>
-        {/* <img className="post-icon" src={post.imageUrl} alt={post.altText}></img> */}
-        <div className={`reveal-full-post ${fullPost ? "" : "hidden"}`}>
+        <div
+          className={`reveal-full-post ${fullPost ? "" : "hidden"}`}
+          aria-hidden={!fullPost}
+        >
           <p className="content">{post.content}</p>
         </div>
       </article>
-      {/* <img src={post.unsplashImage} alt={post.unsplashImageAltText}></img> */}
       {fullPost ? (
         <button
           type="button"
           className="close-full-post-button"
           onClick={CloseFullPost}
+          aria-label="Close Full Post"
         >
           Close
         </button>
@@ -39,6 +43,7 @@ export default function BlogPost({ post }) {
           type="button"
           className="reveal-full-post-button"
           onClick={RevealFullPost}
+          aria-label="Open the full post"
         >
           Read more
         </button>
@@ -46,5 +51,3 @@ export default function BlogPost({ post }) {
     </div>
   );
 }
-
-// className={`post-list-item ${index < visiblePostsLimit ? "" : "hidden"}`}

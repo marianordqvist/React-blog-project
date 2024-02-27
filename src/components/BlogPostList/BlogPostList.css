@@ -54,19 +54,6 @@
   font-size: 1.3rem;
 }
 
-.fade-out {
-  height: 5rem;
-  position: absolute;
-  bottom: 9rem;
-  width: 100%;
-  background: rgb(97, 218, 251);
-  background: linear-gradient(
-    0deg,
-    rgba(97, 218, 251, 1) 13%,
-    rgba(255, 255, 255, 0) 96%
-  );
-}
-
 @media screen and (min-width: 700px) {
   .post-list-item {
     width: 65%;
