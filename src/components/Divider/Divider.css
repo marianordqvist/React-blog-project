@@ -11,7 +11,8 @@
 }
 
 .divider--titel {
-  color: #61dafb;
+  /* color: #029ac4; */
+  color: rgb(75, 80, 81);
   font-size: 1.8rem;
   justify-self: center;
 }

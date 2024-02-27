@@ -6,13 +6,13 @@ import icon005 from "./img/server.svg";
 import icon006 from "./img/animation.svg";
 import icon007 from "./img/cool.svg";
 
-import img001 from "./img/unsplash/code.webp";
-import img002 from "./img/unsplash/connections.webp";
-import img003 from "./img/unsplash/keyboard.webp";
-import img004 from "./img/unsplash/mobile.webp";
-import img005 from "./img/unsplash/network.webp";
-import img006 from "./img/unsplash/stringlights.webp";
-import img007 from "./img/unsplash/typing.webp";
+import img001 from "./img/unsplash/code-new.webp";
+import img002 from "./img/unsplash/connections-new.webp";
+import img003 from "./img/unsplash/keyboard-new.webp";
+import img004 from "./img/unsplash/mobile-new.webp";
+import img005 from "./img/unsplash/network-new.webp";
+import img006 from "./img/unsplash/stringlights-new.webp";
+import img007 from "./img/unsplash/typing-new.webp";
 
 export const blogPosts = [
   {

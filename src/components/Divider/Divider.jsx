@@ -1,7 +1,7 @@
 import "./Divider.css";
 function Divider({ text }) {
   return (
-    <div className="divider" role="page divider">
+    <div className="divider">
       <div className="line"></div>
       <h2 className="divider--titel">{text}</h2>
       <div className="line"></div>

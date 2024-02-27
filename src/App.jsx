@@ -15,7 +15,7 @@ function App() {
       <Hero />
       <Divider text={"Featured Blog Post"} />
       <FeaturedBlogPostList />
-
+      <div className="line-long"></div>
       <Banner />
       <Divider text={"Blog Post"} />
       <BlogPostList />

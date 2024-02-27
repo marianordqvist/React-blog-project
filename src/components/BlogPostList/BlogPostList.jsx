@@ -4,7 +4,7 @@ import "./BlogPostList.css";
 import { useState } from "react";
 
 export default function BlogPostList() {
-  const [visiblePosts, setVisiblePosts] = useState(5);
+  const [visiblePosts, setVisiblePosts] = useState(3);
 
   //calculate number of cards in total
   const visiblePostsLimit = Math.min(visiblePosts, blogPosts.length);
