@@ -25,16 +25,21 @@ const Footer = () => {
           </a>
         </div>
         <div className="headSect2">
-          <div className="names">
-            <div className="first2">
-              <p aria-label="Niklas Wallenborg">Niklas Wallenborg</p>
-              <p aria-label="Setayesh Nouri">Setayesh Nouri</p>
-              <p aria-label="Maria Nordqvist">Maria Nordqvist</p>
+          <div className="smallNames">
+            <p className="head team2" style={{ marginTop: "20px" }}>
+              The Team{" "}
+            </p>
+            <div className="names">
+              <div className="first2">
+                <p aria-label="Niklas Wallenborg">Niklas Wallenborg</p>
+                <p aria-label="Setayesh Nouri">Setayesh Nouri</p>
+                <p aria-label="Maria Nordqvist">Maria Nordqvist</p>
+              </div>
+              <div className="last2">
+                <p aria-label="Hifza Batool">Hifza Batool</p>
+                <p aria-label="Samuel Abraham">Samuel Abraham</p>
+              </div>{" "}
             </div>
-            <div className="last2">
-              <p aria-label="Hifza Batool">Hifza Batool</p>
-              <p aria-label="Samuel Abraham">Samuel Abraham</p>
-            </div>{" "}
           </div>
           <p className="hyper" aria-label="Hyper Island address">
             Virkesvägen 2, 120 30
