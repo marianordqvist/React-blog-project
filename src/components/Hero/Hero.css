@@ -7,6 +7,7 @@
 }
 .logo-icon {
   height: 4.5rem;
+  width: 4.5rem;
   animation: logo-spin infinite 20s linear;
 }
 /* styles to apply if a user's device settings are set to reduced motion */

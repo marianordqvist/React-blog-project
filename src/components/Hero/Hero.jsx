@@ -3,10 +3,7 @@ import reactLogo from "../../img/react.svg";
 
 function Hero() {
   return (
-    <div
-      className="container-hero"
-      aria-label="Hero section title with React logo"
-    >
+    <div className="container-hero" aria-label="Hero section title with React logo">
       <h2 className="logo-text--top">THE</h2>
       <h1 className="logo-text">
         REACT
@@ -14,6 +11,8 @@ function Hero() {
           src={reactLogo}
           className="logo-icon"
           alt="React logo as the letter o"
+          width="24px"
+          height="24px"
         />
         R
       </h1>

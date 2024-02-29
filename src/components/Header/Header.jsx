@@ -7,7 +7,13 @@ import reactLogo from "../../img/react.svg";
 function Header() {
   return (
     <header className="global-header">
-      <img className="header-logo-icon" src={reactLogo} alt="React logo" />
+      <img
+        className="header-logo-icon"
+        src={reactLogo}
+        alt="React logo"
+        width="24px"
+        height="24px"
+      />
       <h2 className="header-logo">The Reactor Blog</h2>
     </header>
   );
