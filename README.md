@@ -2,8 +2,8 @@ Group project for the "Who browses the web" SEO & Accessibility course at Hyper 
 This is a dummy React blog built with the purpose of training to write accessible and SEO friendly code.
 
 ## Project links
-* Website 
-* Github [Visit repository](https://github.com/marianordqvist/React-blog-project)
+* Website: https://the-reactor-blog.netlify.app/
+* Github: [Visit repository](https://github.com/marianordqvist/React-blog-project)
 
-## Tools and stack: 
 * HTML / CSS / React 
+* Lighthouse / Accessibility 
