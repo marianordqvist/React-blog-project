@@ -50,6 +50,7 @@
 
 .banner--logo-icon {
   height: 3em;
+  width: 3em;
   animation: logo-spin infinite 20s linear;
 }
 /* styles to apply if a user's device settings are set to reduced motion */

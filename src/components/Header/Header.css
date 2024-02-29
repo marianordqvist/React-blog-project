@@ -17,6 +17,7 @@
 
 .header-logo-icon {
   height: 4.5rem;
+  width: 4.5rem;
   animation: logo-spin infinite 20s linear;
 }
 
@@ -24,6 +25,6 @@
   margin-left: 50px;
   color: #61dafb;
   font-size: 2rem;
-  text-shadow: 1px 0px 13px rgba(12, 67, 85, 1),
-    -4px 3px 9px rgba(97, 218, 251, 0.971);
+  /* text-shadow: 1px 0px 13px rgba(12, 67, 85, 1),
+    -4px 3px 9px rgba(97, 218, 251, 0.971); */
 }
