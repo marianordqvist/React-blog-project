@@ -28,3 +28,9 @@
   /* text-shadow: 1px 0px 13px rgba(12, 67, 85, 1),
     -4px 3px 9px rgba(97, 218, 251, 0.971); */
 }
+
+@media (prefers-reduced-motion) {
+  .header-logo-icon {
+    animation: logo-spin infinite 200s linear;
+  }
+}
